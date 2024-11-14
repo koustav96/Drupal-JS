@@ -1,0 +1,6 @@
+name: site1
+recipe: drupal10
+config:
+  webroot: web
+  php: 8.2
+  via: nginx
