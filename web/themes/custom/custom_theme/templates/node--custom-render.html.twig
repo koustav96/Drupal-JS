@@ -1,0 +1,17 @@
+{{ title_prefix }}
+{% if label and not page %}
+	<h2{{title_attributes}}>
+		<a href="{{ url }}" rel="bookmark">{{ label }}</a>
+	</h2>
+{% endif %}
+{{ title_suffix }}
+
+<div class="content">
+	{% if colors is defined %}
+		<div class="color-list">
+			{% for color in colors %}
+				<span style="color: {{ color }};">{{ color | upper }}</span>
+			{% endfor %}
+		</div>
+	{% endif %}
+</div>
