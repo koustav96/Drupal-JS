@@ -1,0 +1,5 @@
+# Main theme library.
+global:
+  js:
+    js/hook-alter-theme.js: {}
+
