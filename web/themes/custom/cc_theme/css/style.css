@@ -1,0 +1,1 @@
+.image-even{display:flex;flex-wrap:wrap;justify-content:space-between}.image-even .field__item{width:49%}.image-odd{display:flex;flex-wrap:wrap;justify-content:space-between}.image-odd .field__items .field__item:nth-child(1){width:100%;margin:0 auto}

@@ -1,0 +1,9 @@
+name: cc_theme
+type: theme
+base theme: bootstrap5
+description: A flexible theme with a responsive, mobile-first layout.
+package: Custom
+core_version_requirement: ^10
+libraries:
+  - cc_theme/global
+
