@@ -8,8 +8,6 @@
 /drush/Commands/contrib/
 /web/core/
 /web/modules/contrib/
-/web/modules/custom/mail
-/web/modules/custom/clean
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
@@ -19,7 +17,7 @@
 /.gitattributes
 /.drush-lock-update
 /web/**/.gitignore
-/web/themes/custom/gotjunk_us/node_modules
+/web/themes/custom/*/node_modules
 /web/sites/default/robots-copy.txt
 /web/sites/default/settings.php
 /web/sites/development.services.yml
