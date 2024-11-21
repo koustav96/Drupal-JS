@@ -1,0 +1,19 @@
+@use "../base/variables" as *;
+@use "../modules/mixin" as *;
+
+.image-even {
+    @include flex-grid;
+
+  .field__item {
+    width: $half-width;
+  }
+}
+.image-odd {
+    @include flex-grid;
+  .field__items{
+    .field__item:nth-child(1) {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
