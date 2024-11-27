@@ -1,0 +1,4 @@
+# Main theme library.
+global:
+  js:
+    js/to-do-list.js: {}
